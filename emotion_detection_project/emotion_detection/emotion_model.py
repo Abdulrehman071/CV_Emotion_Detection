@@ -119,3 +119,4 @@ def predict(face_bgr: np.ndarray) -> dict:
 
     preds = model.predict(x, verbose=0)[0]          # shape (7,)
     return {EMOTIONS[i]: float(preds[i]) * 100.0 for i in range(7)}
+  
