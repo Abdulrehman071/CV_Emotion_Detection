@@ -1,6 +1,6 @@
 # 🎭 EmotiScan — Real-Time Emotion Detection
 
-A complete computer vision project that detects faces in real time and classifies
+A complete computer vision project that detects face feature in real time and classifies
 7 emotions using **OpenCV** + **DeepFace** (backed by TensorFlow).
 
 
